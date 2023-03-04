@@ -620,7 +620,7 @@ h2 {
     animation: shine 3s infinite linear;
   }
 }
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 100px) and (max-width: 800px) {
   .top-nav {
     display: flex;
     flex-direction: row;
