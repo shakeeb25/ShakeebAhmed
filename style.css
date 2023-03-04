@@ -1,0 +1,984 @@
+body {
+  background-color: #000000;
+  color: aliceblue;
+}
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #735f32;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 250px;
+  height: 80px;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+#body {
+  display: flex;
+  justify-content: space-between;
+}
+.intro {
+  font-family: "Play", sans-serif;
+  font-size: 45px;
+  width: 500px;
+  height: 250px;
+  font-style: bold;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+.name {
+  background-color: #735f32;
+  border-radius: 10px;
+  padding: 0px 5px;
+  background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+.sub {
+  color: #735f32;
+  font-size: 25px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+}
+
+.image {
+  width: 700px;
+  height: 700px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.btn {
+  text-decoration: none;
+  color: #735f32;
+  background-color: #282a3a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 28px;
+  transition: all 0.5s ease-in;
+}
+.btn:hover {
+  border: 5px #735f32;
+  color: #282a3a;
+  background-color: #735f32;
+  border-radius: 20px;
+}
+.port {
+  margin: 10px;
+}
+
+hr {
+  background-color: #735f32;
+  height: 1px;
+  border: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.subhead {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 50px;
+  margin-left: 50px;
+  background: linear-gradient(to right, #f6f4e6 0, #735f32 10%, #f6f4e6 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1.75s infinite linear;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  opacity: 80%;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: #282a3a 3px 3px 6px 0px inset, #282a3a -3px -3px 6px 1px inset;
+}
+.card:hover {
+  opacity: 100%;
+  cursor: pointer;
+  background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  border: 1px solid #735f32;
+}
+.js {
+  width: 200px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.ps {
+  width: 230px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.react {
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.figma {
+  width: 150px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.tag {
+  font-family: "Play", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: #735f32;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.certificate {
+  width: 400px;
+  margin: 20px;
+}
+
+.bord {
+  border-radius: 15px;
+  border: 5px solid #735f32;
+}
+.map {
+  margin-left: 70px;
+  height: 400px;
+  width: 400px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+.hire {
+  font-family: "Play", sans-serif;
+  font-size: 40px;
+}
+.details {
+  margin-top: 70px;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+}
+
+.fa-facebook {
+  background: #4267b2;
+  color: white;
+}
+.fa-twitter {
+  background: #1da1f2;
+  color: white;
+}
+.fa-envelope {
+  background: white;
+  color: red;
+}
+
+.fa {
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 35px;
+  color: #735f32;
+}
+.phone {
+  color: #735f32;
+  font-size: 30px;
+  margin-left: 10px;
+  font-family: "Play", sans-serif;
+}
+.num {
+  font-size: 30px;
+  font-family: "Play", sans-serif;
+  margin-left: 10px;
+}
+.numm {
+  font-size: 30px;
+  font-family: "Play", sans-serif;
+  margin-left: 120px;
+}
+.ph {
+  text-decoration: none;
+  color: white;
+}
+.ph:hover {
+  background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: #735f32;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  body {
+  }
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 80px;
+    margin-left: 115px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 1em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 35%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+  .logo {
+    margin-left: 0px;
+    margin-top: 17px;
+  }
+  #body {
+    display: flex;
+    overflow: hidden;
+  }
+  .intro {
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    width: 1200px;
+    height: 250px;
+    font-style: bold;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .name {
+    background-color: #735f32;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  .sub {
+    color: #735f32;
+    font-size: 15px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+  }
+
+  .image {
+    width: 1500px;
+    height: 350px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .btn {
+    text-decoration: none;
+    color: #735f32;
+    background-color: #282a3a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+  }
+  .btn:hover {
+    border: 5px #735f32;
+    color: #282a3a;
+    background-color: #735f32;
+    border-radius: 20px;
+  }
+  .port {
+    margin: 10px;
+  }
+  .subhead {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    background: linear-gradient(to right, #f6f4e6 0, #735f32 10%, #f6f4e6 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.75s infinite linear;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .card {
+    width: 150px;
+    height: 200px;
+    opacity: 80%;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: #282a3a 3px 3px 6px 0px inset, #282a3a -3px -3px 6px 1px inset;
+  }
+  .card:hover {
+    opacity: 100%;
+    cursor: pointer;
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    border: 1px solid #735f32;
+  }
+  .js {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+  .ps {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 27px;
+  }
+  .react {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  .figma {
+    width: 75px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  .tag {
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #735f32;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .certificate {
+    width: 200px;
+    margin: 20px;
+  }
+
+  .bord {
+    border-radius: 15px;
+    border: 5px solid #735f32;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  iframe {
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+  }
+  .map {
+    margin-left: 20px;
+    height: 400px;
+    width: 400px;
+  }
+  .last {
+    display: flex;
+    margin-right: 10px;
+  }
+  .hire {
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    width: 250px;
+    height: 100px;
+  }
+  .details {
+    margin-top: 45px;
+    margin-left: 0px;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #4267b2;
+    color: white;
+  }
+  .fa-twitter {
+    background: #1da1f2;
+    color: white;
+  }
+  .fa-envelope {
+    background: white;
+    color: red;
+  }
+
+  .fa {
+    padding: 20px;
+    margin: 2px;
+    font-size: 15px;
+    width: 1px;
+    height: 1px;
+    border-radius: 7px;
+    text-decoration: none;
+  }
+  .loc {
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    color: #735f32;
+    margin-left: 5px;
+  }
+  .phone {
+    color: #735f32;
+    font-size: 20px;
+    margin-top: px;
+    margin-left: 10px;
+    font-family: "Play", sans-serif;
+  }
+  .num {
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    margin-left: 10px;
+  }
+  .numm {
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    margin-left: 85px;
+  }
+  .ph {
+    text-decoration: none;
+    color: white;
+  }
+  .ph:hover {
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+}
+@media (min-width: 400px) and (max-width: 800px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+    padding: 1em;
+  }
+  .logo {
+    margin-left: 0px;
+    margin-top: 17px;
+    width: 150px;
+    height: 50px;
+  }
+  .intro {
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    width: 1050px;
+    height: 00px;
+    font-style: bold;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .sub {
+    color: #735f32;
+    font-size: 14px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+  }
+
+  .image {
+    width: 700px;
+    height: 250px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .btn {
+    text-decoration: none;
+    color: #735f32;
+    background-color: #282a3a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+  }
+  .subhead {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    background: linear-gradient(to right, #f6f4e6 0, #735f32 10%, #f6f4e6 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.75s infinite linear;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .card {
+    width: 100px;
+    height: 150px;
+    opacity: 80%;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: #282a3a 3px 3px 6px 0px inset, #282a3a -3px -3px 6px 1px inset;
+  }
+  .card:hover {
+    opacity: 100%;
+    cursor: pointer;
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    border: 1px solid #735f32;
+  }
+  .js {
+    width: 70px;
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  .ps {
+    width: 70px;
+    margin-top: 35px;
+    margin-left: 15px;
+  }
+  .react {
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+  .figma {
+    width: 50px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 25px;
+  }
+  .tag {
+    font-family: "Play", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #735f32;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .certificate {
+    width: 150px;
+    margin: 20px;
+  }
+
+  .bord {
+    border-radius: 15px;
+    border: 3px solid #735f32;
+  }
+
+  iframe {
+    width: 250px;
+    height: 150px;
+    margin-left: 5px;
+  }
+  .map {
+    margin-left: 20px;
+    height: 300px;
+    width: 250px;
+  }
+  .last {
+    display: flex;
+    margin-right: 50px;
+  }
+  .hire {
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    width: 320px;
+    height: 100px;
+  }
+  .details {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #4267b2;
+    color: white;
+  }
+  .fa-twitter {
+    background: #1da1f2;
+    color: white;
+  }
+  .fa-envelope {
+    background: white;
+    color: red;
+  }
+
+  .fa {
+    padding: 22px;
+    margin: 2px;
+    font-size: 15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .loc {
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    color: #735f32;
+    margin-left: 5px;
+  }
+  .phone {
+    color: #735f32;
+    font-size: 20px;
+    margin-top: px;
+    margin-left: 10px;
+    font-family: "Play", sans-serif;
+  }
+  .num {
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    margin-left: 10px;
+  }
+  .numm {
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    margin-left: 85px;
+  }
+  .ph {
+    text-decoration: none;
+    color: white;
+  }
+  .ph:hover {
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  .last {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  iframe {
+    width: 400px;
+    height: 300px;
+    margin-left: 5px;
+  }
+  .map {
+    margin-left: 20px;
+    height: 400px;
+    width: 250px;
+  }
+  .last {
+    display: flex;
+    margin-right: 10px;
+  }
+  .hire {
+    font-family: "Play", sans-serif;
+    font-size: 40px;
+    width: 450px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  .details {
+    margin-top: 45px;
+    margin-left: 0px;
+  }
+  .fa {
+    padding: 22px;
+    margin: 2px;
+    font-size: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .loc {
+    font-family: "Play", sans-serif;
+    font-size: 36px;
+    color: #735f32;
+    margin-left: 5px;
+  }
+  .phone {
+    color: #735f32;
+    font-size: 32px;
+    margin-top: px;
+    margin-left: 10px;
+    font-family: "Play", sans-serif;
+  }
+  .num {
+    font-size: 26px;
+    font-family: "Play", sans-serif;
+    margin-left: 10px;
+  }
+  .numm {
+    font-size: 26px;
+    font-family: "Play", sans-serif;
+    margin-left: 125px;
+  }
+  .ph {
+    text-decoration: none;
+    color: white;
+  }
+  .ph:hover {
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  iframe {
+    width: 400px;
+    height: 300px;
+    margin-left: 5px;
+  }
+  .map {
+    margin-left: 20px;
+    height: 400px;
+    width: 250px;
+  }
+  .last {
+    display: flex;
+    margin-right: 10px;
+  }
+  .hire {
+    font-family: "Play", sans-serif;
+    font-size: 40px;
+    width: 450px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  .details {
+    margin-top: 45px;
+    margin-left: 0px;
+  }
+  .fa {
+    padding: 22px;
+    margin: 2px;
+    font-size: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .loc {
+    font-family: "Play", sans-serif;
+    font-size: 36px;
+    color: #735f32;
+    margin-left: 5px;
+  }
+  .phone {
+    color: #735f32;
+    font-size: 32px;
+    margin-top: px;
+    margin-left: 10px;
+    font-family: "Play", sans-serif;
+  }
+  .num {
+    font-size: 26px;
+    font-family: "Play", sans-serif;
+    margin-left: 10px;
+  }
+  .numm {
+    font-size: 26px;
+    font-family: "Play", sans-serif;
+    margin-left: 125px;
+  }
+  .ph {
+    text-decoration: none;
+    color: white;
+  }
+  .ph:hover {
+    background: linear-gradient(to right, #735f32 0, #f6f4e6 10%, #735f32 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+}
